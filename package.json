@@ -1,0 +1,29 @@
+{
+  "name": "netsuite-deploy",
+  "version": "1.0.0",
+  "description": "Deploy a project to Netsuite using SuiteTalk (Web Services) or SDF",
+  "main": "lib\\index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "keywords": [
+    "netsuite"
+  ],
+  "license": "MIT",
+  "author": "Michoel Chaikin <micholi@gmail.com>",
+  "dependencies": {
+    "cross-spawn": "^5.1.0",
+    "nconf": "^0.8.4",
+    "netsuite-suitetalk-wsdl-v2016-2.0": "^0.1.5",
+    "node-fetch": "^1.6.3",
+    "soap-as-promised": "^1.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-prettier": "^2.1.1"
+  }
+}
